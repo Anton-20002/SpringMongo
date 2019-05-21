@@ -1,0 +1,45 @@
+﻿Get All URL - http://localhost:8102/api/mongo/emp/getall
+
+Get By Id URL - http://localhost:8102/api/mongo/emp/getbyid/1
+
+Update (By Id) URL - PUT http://localhost:8102/api/mongo/emp/update/5
+
+{
+  "name": "Tobi Carless",
+  "designation": "Administrator"
+}
+
+
+Delete (By Id) URL - http://localhost:8102/api/mongo/emp/delete/1
+
+Delete All URL - http://localhost:8102/api/mongo/emp/deleteall
+
+POST http://localhost:8102/api/mongo/emp/create
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+[  {
+  "id": 1,
+  "name": "Tori Carless",
+  "designation": "Administrator"
+   }, {
+  "id": 2,
+  "name": "Leticia Mariotte",
+  "designation": "Developer"
+},  {
+  "id": 3,
+  "name": "Adriano Waldocke",
+  "designation": "Manager"
+},  {
+  "id": 4,
+  "name": "Morena Roughey",
+  "designation": "Administrator"
+}, {
+  "id": 5,
+  "name": "Ingeberg Creer",
+  "designation": "Sr. Developer"
+}]
+
+
+
